@@ -29,7 +29,7 @@ def solve(file_name):
 		# Part 2
 		def cal_root_value(self):
 			"""
-			Calculate root value from all its nodes' metadata values using recursive
+			Calculate root value from all its nodes' metadata values
 			:return: Root value
 			"""
 			if not self.nNodes:
