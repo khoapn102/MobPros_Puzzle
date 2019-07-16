@@ -30,7 +30,7 @@ def solve(file_name):
 		def cal_root_value(self):
 			"""
 			Calculate root value from all its nodes' metadata values using recursive
-			:return:
+			:return: Root value
 			"""
 			if not self.nNodes:
 				return sum(self.metadata)
@@ -53,3 +53,4 @@ if __name__ == "__main__":
 		solve(arg)
 	except:
 		print("There is no existing file or faulty input, please check !!")
+
